@@ -5,6 +5,27 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Imagem de destaque (foto1.avif - vulcão acordando) */
+.imagem-destaque {
+    width: 100%;
+    max-width: 400px; /* ajuste esse valor pro tamanho que quiser */
+    height: auto;
+    margin: 20px auto; /* centraliza */
+    display: block;
+    border-radius: 8px; /* opcional - cantos arredondados */
+}
+
+/* Imagem no conteúdo (foto2.png - lava visível) */
+.imagem-conteudo {
+    width: 100%;
+    max-width: 350px; /* ajuste esse valor também */
+    height: auto;
+    margin: 15px auto;
+    display: block;
+    border-radius: 8px;
+}
+
+
 /* noticia */
 article {
     margin: 50px auto;

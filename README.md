@@ -46,6 +46,10 @@ projeto/
 3. Abra o DevTools (F12) para ver o console e experimentar com JavaScript
 4. Explore o código em `script.js` para ver as implementações (basta retirar os comentarios e explorar)
 
+##  🧑‍💻 Repositorio
+
+- O repositório esta disponivel com github pages, com a URL: https://kauagouvei9.github.io/Vulc-o-Alaska/
+
 ## 💡 Aprendizados
 
 Este projeto serve como um **laboratório prático** para experimentar com JavaScript sem a complexidade de frameworks ou bibliotecas. O foco está em entender os fundamentos da linguagem e como ela interage com o DOM.

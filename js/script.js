@@ -115,7 +115,7 @@
 //------------------------------------------------------------------------------------------------------------
 // MANIPULAR CSS ATRAVÉS DE className e classList
 
-let container = document.querySelector('section')
+//let container = document.querySelector('section')
 
 // // ver o valor de class na consola
 // console.log(container.className)

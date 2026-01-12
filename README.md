@@ -15,6 +15,7 @@ Desenvolver habilidades em JavaScript através da prática, implementando funcio
 - **Aplicação de estilos inline via JS** - Manipulação de CSS através do JavaScript
 - **Manipulação de elementos** - Alteração de conteúdo, atributos e propriedades
 - **Adição de elementos ao DOM** - Criação e inserção dinâmica de novos elementos
+- **Validação de Formularios"" - Introduzir e melhorar o sistema de validação
 
 ### 🔜 Próximos Passos
 À medida que o projeto avança, novos conceitos serão adicionados, como:

@@ -1,21 +1,43 @@
 body {
     margin: 0;
     padding: 20px;
-    background-color: #222;
-    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #1a1a2e 0%, #2d3436 50%, #1e272e 100%);
+    font-family: 'Georgia', serif;
+    min-height: 100vh;
+}
+
+
+/* Header com logo */
+header {
+    text-align: center;
+    padding: 20px 0 30px;
+    border-bottom: 2px solid #d63031;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    filter: drop-shadow(0 0 8px rgba(214, 48, 49, 0.4));
 }
 
 /* Imagem de destaque (foto1.avif - vulcão acordando) */
 .imagem-destaque {
     width: 100%;
-    max-width: 400px; /* ajuste esse valor pro tamanho que quiser */
+    max-width: 400px; 
     height: auto;
     margin: 20px auto; /* centraliza */
     display: block;
-    border-radius: 8px; /* opcional - cantos arredondados */
+    border-radius: 8px; 
+    box-shadow: 0 4px 15px rgba(214, 48, 49, 0.3);
+    border: 2px solid rgba(214, 48, 49, 0.2);
+    transition: transform 0.3s ease;
 }
 
-/* Imagem no conteúdo (foto2.png - lava visível) */
+.imagem-destaque:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 25px rgba(214, 48, 49, 0.5);
+}
+
 .imagem-conteudo {
     width: 100%;
     max-width: 350px; /* ajuste esse valor também */

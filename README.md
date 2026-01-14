@@ -19,6 +19,7 @@ Desenvolver habilidades em JavaScript através da prática, implementando funcio
 
 ### 🔜 Próximos Passos
 À medida que o projeto avança, novos conceitos serão adicionados, como:
+- Modernização no CSS
 - Event Listeners e manipulação de eventos
 - Manipulação de formulários
 - Animações e transições

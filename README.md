@@ -16,10 +16,11 @@ Desenvolver habilidades em JavaScript através da prática, implementando funcio
 - **Manipulação de elementos** - Alteração de conteúdo, atributos e propriedades
 - **Adição de elementos ao DOM** - Criação e inserção dinâmica de novos elementos
 - **Validação de Formularios** - Introduzir e melhorar o sistema de validação
+- **Modernização no CSS** - Melhorias significativas no CSS
 
 ### 🔜 Próximos Passos
 À medida que o projeto avança, novos conceitos serão adicionados, como:
-- Modernização no CSS
+
 - Event Listeners e manipulação de eventos
 - Manipulação de formulários
 - Animações e transições

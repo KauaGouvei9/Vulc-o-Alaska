@@ -249,3 +249,23 @@
 // function funcao2(){
 //     document.querySelector('h1').textContent = "Novo texto1"
 // }
+
+// // para adicionar mais do que um event handler a cada evento usamos o addEventListener
+// let botao = document.querySelector('#botao')
+// botao.addEventListener('click', funcao1)
+// botao.addEventListener('click', funcao2)
+
+// function funcao1(){
+//     console.log('clique')
+// }            
+
+// function funcao2(){
+//     document.querySelector('h1').textContent = "Novo texto1"
+// }            
+
+// // exemplo com mouseover e mouseout      
+
+// let botao = document.querySelector('#botao')
+// botao.addEventListener('mouseover', funcao1)
+// botao.addEventListener('mouseout', funcao2) 
+

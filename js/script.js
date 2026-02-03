@@ -269,3 +269,62 @@
 // botao.addEventListener('mouseover', funcao1)
 // botao.addEventListener('mouseout', funcao2) 
 
+// function alterar texto
+
+// function alterar_texto(){
+//     document.querySelector('h1').textContent = "Novo texto"
+// }
+
+
+// // não dá para adicionar mais do que um event handler a cada evento
+// let botao = document.querySelector('#botao')
+// botao.onclick = funcao1
+// botao.onclick = funcao2
+
+// function funcao1(){
+//     console.log('clique')
+// }
+
+// function funcao2(){
+//     document.querySelector('h1').textContent = "Novo texto1"
+// }
+
+// let botao = document.querySelector('button')
+
+// // podemos adicionar multiplos event listeners ao mesmo evento de um elemento
+
+// botao.addEventListener('click', function(){
+//     document.querySelector('h1').textContent = "Texto alterado"
+// })
+
+// botao.addEventListener('click', function(){
+//     console.log('clique')
+// })
+
+
+// DEFINIR UM EVENT LISTENER
+
+// -------------------------------------------------------
+// function evento(){
+//     document.querySelector("h1").textContent = "Novo texto"
+// }
+
+// let botao = document.querySelector("button")
+// botao.addEventListener('click', evento)
+
+// -------------------------------------------------------
+// let botao = document.querySelector("button")
+// botao.addEventListener('click', function() {
+//     console.log('clique')
+// })
+
+// -------------------------------------------------------
+// let botao = document.querySelector("button")
+// botao.addEventListener('click', () => console.log('clique'))
+
+// -------------------------------------------------------
+// document.querySelector("button").addEventListener('click', (e) => {
+//     console.log('clique')
+//     e.target.textContent = "Alterado"
+//     document.querySelector("h1").textContent = "Texto alterado"
+// })

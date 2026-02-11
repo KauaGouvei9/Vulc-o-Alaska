@@ -328,3 +328,41 @@
 //     e.target.textContent = "Alterado"
 //     document.querySelector("h1").textContent = "Texto alterado"
 // })
+
+
+//------------------------------------------------------------------------------------------------------------
+/* Apresentação de 25 caixas de formulario numa stack vertical, com variação do valor
+    RGB de 10 pontos */
+
+document.querySelectorAll("#bnt-vermelho").addEventListener('click', () => {
+    for(let i = 0; i < 250; i+= 10){
+        let tmp = document.createElement('div');
+        tmp.classList.add('caixa');
+        tmp.style.backgroundColor = `rgb(${i},0,0)`;
+        document.body.appendChild(tmp);
+    }
+})
+
+document.querySelectorAll("#bnt-verde").addEventListener('click', () => {
+    for(let i = 0; i < 250; i+= 10){
+        let tmp = document.createElement('div');
+        tmp.classList.add('caixa');
+        tmp.style.backgroundColor = `rgb(0,${i},0)`;
+        document.body.appendChild(tmp);
+    }
+})
+
+
+document.querySelectorAll("#bnt-azul").addEventListener('click', () => {
+    for(let i = 0; i < 250; i+= 10){
+        let tmp = document.createElement('div');
+        tmp.classList.add('caixa');
+        tmp.style.backgroundColor = `rgb(0,0,${i})`;
+        document.body.appendChild(tmp);
+    }
+})
+
+function delete_elements(){
+    let elements = document.querySelectorAll('.caixa');
+    elements.forEach(e => e.remove());
+}

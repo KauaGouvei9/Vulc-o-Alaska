@@ -398,24 +398,45 @@
 
 //------------------------------------------------------------------------------------------------------------
 // desativar a funçao de um link
-document.querySelector('a').addEventListener('click', (e) =>{
-    console.log(e);
-    e.preventDefault();
-})
+// document.querySelector('a').addEventListener('click', (e) =>{
+//     console.log(e);
+//     e.preventDefault();
+// })
 
 // desativar a submissão de um formulário
-document.querySelector('input[type="submit"]')
-.addEventListener('click', (event) =>{
-        // validação do formulario
-    console.log(event);
-    event.stopPropagation();
-    event.preventDefault();    
-})
+// document.querySelector('input[type="submit"]')
+// .addEventListener('click', (event) =>{
+//         // validação do formulario
+//     console.log(event);
+//     event.stopPropagation();
+//     event.preventDefault();    
+// })
 
 
 // ATENÇÃO: o método preventDefault() deve ser usado dentro de um event listener
 // CUIDADO COM A PROPAGAÇÃO
-document.querySelector('.caixa').addEventListener('click', (event) => {
-    console.log('div');
-    event.stopPropagation();
-})
+// document.querySelector('.caixa').addEventListener('click', (event) => {
+//     console.log('div');
+//     event.stopPropagation();
+// })
+
+
+//------------------------------------------------------------------------------------------------------------------
+/* 
+Como criar um formulario:
+
+    <form action='#' method='post' name='formulario_login'> 
+    <h3>Formulário de Login</h3>
+
+    <label>Usuario:</label>
+    <input type='text' name='usuario' placeholder='Digite seu usuario' required id='usuario'>
+
+    <label>Senha:</label>
+    <input type='password' name='senha' placeholder='Digite sua senha' required id='senha'>
+
+    <input type="submit" value="Entrar">
+    </form>
+*/
+
+// Introdução a formulários e validação de dados
+

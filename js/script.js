@@ -395,3 +395,27 @@
 //     let elements = document.querySelectorAll('.caixa');
 //     elements.forEach(e => e.remove());
 // }
+
+//------------------------------------------------------------------------------------------------------------
+// desativar a funçao de um link
+document.querySelector('a').addEventListener('click', (e) =>{
+    console.log(e);
+    e.preventDefault();
+})
+
+// desativar a submissão de um formulário
+document.querySelector('input[type="submit"]')
+.addEventListener('click', (event) =>{
+        // validação do formulario
+    console.log(event);
+    event.stopPropagation();
+    event.preventDefault();    
+})
+
+
+// ATENÇÃO: o método preventDefault() deve ser usado dentro de um event listener
+// CUIDADO COM A PROPAGAÇÃO
+document.querySelector('.caixa').addEventListener('click', (event) => {
+    console.log('div');
+    event.stopPropagation();
+})

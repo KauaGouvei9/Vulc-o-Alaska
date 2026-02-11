@@ -366,3 +366,32 @@
 //     let elements = document.querySelectorAll('.caixa');
 //     elements.forEach(e => e.remove());
 // }
+
+//------------------------------------------------------------------------------------------------------------
+/* Apresentação de 25 caixas de formulario numa stack vertical, igual da maneira anterior
+    mas com variação do valor RGB de 10 pontos, de uma maneira mais eficaz e simples. */
+
+// document.querySelectorAll("button").forEach(button => {
+//     button.addEventListener('click', (event) => {
+//         for(let i = 0; i < 250; i+= 10){
+//             let tmp = document.createElement('div');
+//             tmp.classList.add('caixa');
+//             let id = event.target.id;
+            
+//             if(id == 'btn-vermelho'){
+//                 tmp.style.backgroundColor = `rgb(${i},0,0)`;
+//             } else if(id == 'btn-verde'){
+//                 tmp.style.backgroundColor = `rgb(0,${i},0)`;
+//             } else{
+//                 tmp.style.backgroundColor = `rgb(0,0,${i})`;
+//             }
+            
+//             document.body.appendChild(tmp);
+//         }
+//     })
+// })
+
+// function delete_elements(){
+//     let elements = document.querySelectorAll('.caixa');
+//     elements.forEach(e => e.remove());
+// }

@@ -440,3 +440,31 @@ Como criar um formulario:
 
 // Introdução a formulários e validação de dados
 
+// document.formulario_login.addEventListener('submit', (event) => {
+
+//     // buscar valores do campos do formulário
+//     let usuario =  event.target.usuario.value;
+//     let senha = event.target.senha.value;
+//     let submit = true;
+
+//     // validar usuario
+//     if(usuario === ""){
+//         submit = false; 
+//     }
+    
+//     // validar senha
+//     if(senha === ""){
+//         submit = false; 
+//     }
+
+
+//     if (!submit){
+//         event.preventDefault();
+//         alert("Preencha todos os campos do formulário.");
+
+//         setTimeout(() => {
+//             document.querySelectorAll("error").forEach(e => e.remove());
+//         }   , 2000);
+//     }
+    
+// })

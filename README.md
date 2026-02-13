@@ -72,7 +72,7 @@ Este projeto serve como um **laboratório prático** para experimentar com JavaS
 ---
 
 **Desenvolvido para aprendizado de JavaScript**
-**90% concluido**
+**100% concluido**
 
 
 ## Feito por Kauã Gouveia

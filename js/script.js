@@ -483,7 +483,27 @@ Como criar um formulario:
 //     }
     
 // })
+// 
+
 
 //--------------------------------------------------------------------------------------------------------------
-//remover erros anteriores
-document.querySelectorAll("error").forEach(e => e.remove());
+
+// Detalhe sobre o carremento do JS no HEAD do THML
+
+// document.addEventListener('readystatechange', () => {
+//     if(document.readyState === 'complete'){
+
+//         document.querySelector("button").addEventListener('click', () => {
+//         document.querySelector("h1").innerText = "Texto do titulo alterado"
+//         })
+//     }
+// })
+
+// document.addEventListener('DOMContentLoaded', () => {
+//     document.querySelector("button").addEventListener('click', () => {
+//         document.querySelector("h1").innerText = "Texto do titulo alterado"
+//     })
+// })      
+
+
+//--------------------------------------------------------------------------------------------

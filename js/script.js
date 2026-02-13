@@ -440,6 +440,21 @@ Como criar um formulario:
 
 // Introdução a formulários e validação de dados
 
+// // usuario
+// document.querySelectorAll('input[name="usuario"]').addEventListener('input', (event) => {
+//     if(document.querySelectorAll('input[name="usuario"]') != null){
+//         (document.querySelectorAll('input[name="usuario"]').remove());
+//     }
+// })
+
+
+// // senha
+// document.querySelectorAll('input[name="senha"]').addEventListener('input', (event) => {
+//     if(document.querySelectorAll('input[name="senha"]') != null){
+//         (document.querySelectorAll('input[name="senha"]').remove());
+//     }
+// })
+
 // document.formulario_login.addEventListener('submit', (event) => {
 
 //     // buscar valores do campos do formulário
@@ -468,3 +483,7 @@ Como criar um formulario:
 //     }
     
 // })
+
+//--------------------------------------------------------------------------------------------------------------
+//remover erros anteriores
+document.querySelectorAll("error").forEach(e => e.remove());
